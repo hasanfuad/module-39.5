@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import PostDetails from "./PostDetails/PostDetails";
 import NotFound from "./NotFound/NotFound";
@@ -19,7 +19,7 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          
+
           <Route path="/post/:postId">
             <PostDetails/>
           </Route>
